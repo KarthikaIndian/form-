@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Button</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"  >
+  </head>
+  <body>
+   <div class="container">
+    <h1 class="text-center bg-success text-white">Form Control</h1>
+   
+   
+    <div class="mb-3">
+        <label for="email" class="form-label">Email address</label>
+        <input type="email" class="form-control" id="email" placeholder="akaran@example.com">
+        <label for="pass" class="form-label">Password</label>
+        <input type="password" class="form-control" id="pass">
+      </div>
+      <div class="mt-3">
+        <label for="add" class="form-label">Address</label>
+        <textarea class="form-control" id="add" rows="3"></textarea>
+        <div class="mb-3">
+            <label for="formFile" class="form-label">Choose your File</label>
+            <input class="form-control" type="file" id="formFile">
+          </div>
+          <label for="exampleDataList" class="form-label">Your Favourite Food</label>
+                <input class="form-control" list="datalistOptions" id="exampleDataList" placeholder="Type to search...">
+                <datalist id="datalistOptions">
+                <option value="Fried Rice">
+                <option value="Briyani">
+                <option value="meals">
+                <option value="boroda">
+                
+                </datalist>
+                <div class="text-center mt-2">
+                <button class="btn bg-primary text-white ">Submit</button>
+                <button class="btn bg-danger text-white">Cancel</button> 
+            </div>
+
+<input type="color" class="form-control form-control-color" id="exampleColorInput" value="#563d7c" title="Choose your color">
+        <label>Disabled</label>
+        <input class="form-control mb-3" type="text" placeholder="Disabled input" aria-label="Disabled input example" disabled>
+        <label>Read Only</label>
+        <input class="form-control" type="text" value=" Readonly input" aria-label="input example" readonly>
+   </div>
+</div>
+    </body>
+    </html>
